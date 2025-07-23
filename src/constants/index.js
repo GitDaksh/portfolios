@@ -243,36 +243,35 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "SDE Intern",
+    job: "Cloud Counselage Pvt. Ltd.",
+    date: "Jul 2024 - Oct 2024",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Designed and deployed a LinkedIn-style networking platform, enabling professional interactions and profile sharing.",
+      "Developed modular frontend/backend systems with reusable components and REST APIs, ensuring scalable architecture.",
+      "Integrated engagement features and optimized queries, contributing to a 20% boost in user retention.",
+      "Stack: Next.js, React.js, TailwindCSS, MongoDB, MaterialUI, Express.js",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "SDE (Full-Stack) Intern",
+    job: "Zidio Development",
+    date: "Nov 2024 - Jan 2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Building a dynamic Task Management app with real-time collaboration, task analytics, and role-based access.",
+      "Improved productivity by introducing intuitive UI and structured workflow boards for teams.",
+      "Stack: React.js, MongoDB, TailwindCSS, TypeScript",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Software Development Intern",
+    job: "AcmeGrade",
+    date: "Mar 2025 - Jun 2025",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Built an intelligent course recommendation system using collaborative filtering and user interaction data.",
+      "Optimized backend performance by indexing queries and implementing caching strategies in MongoDB.",
+      "Achieved an 18% increase in course completions by improving recommendation relevance and flow.",
+      "Stack: Node.js, Express, Mong,oDB, JavaScript"
     ],
   },
 ];
