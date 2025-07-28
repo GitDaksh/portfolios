@@ -13,11 +13,7 @@ const Project = ({
   const [isHidden, setIsHidden] = useState(false);
   return (
     <>
-      <div
-        className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
-        onMouseEnter={() => setPreview(image)}
-        onMouseLeave={() => setPreview(null)}
-      >
+      <div className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0">
         <div>
           <p className="text-2xl">{title}</p>
           <div className="flex gap-5 mt-2 text-sand">
@@ -40,7 +36,6 @@ const Project = ({
           title={title}
           description={description}
           subDescription={subDescription}
-          image={image}
           tags={tags}
           href={href}
           closeModal={() => setIsHidden(false)}
