@@ -117,9 +117,9 @@ export const mySocials = [
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
+    name: "GitHub", 
     href: "https://github.com/GitDaksh",
-    icon: "/assets/socials/instagram.svg",
+    icon: "/assets/socials/github.svg",
   },
 ];
 
