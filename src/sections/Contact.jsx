@@ -33,13 +33,13 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        "service_bsi2zqh", // <-- replace with your EmailJS Service ID
-        "template_9jmavqd", // <-- replace with your EmailJS Template ID
+        "service_bsi2zqh",
+        "template_9jmavqd",
         {
           from_name: formData.name,
           to_name: "Daksh",
           from_email: formData.email,
-          to_email: "daksh.java.util@gmail.com", // <-- your email
+          to_email: "daksh.java.util@gmail.com",
           message: formData.message,
         },
         "VUk2FDGGVBRNAsKOs"
