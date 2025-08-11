@@ -1,4 +1,4 @@
-# 🚀 Daksh Pushpad's Portfolio
+# 🚀 Daksh's Portfolio
 
 Welcome to my personal developer portfolio!  
 Showcasing my journey, selected projects, tech stack, and ways to connect.
@@ -92,7 +92,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ## ⭐️ Show Your Support
 
 If you like this portfolio, please ⭐️ the repo and connect with me!
-
----
-
-> Crafted
