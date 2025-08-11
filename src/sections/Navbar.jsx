@@ -1,31 +1,40 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+
+const NAV_LINKS = [
+  { label: "Home", to: "home" },
+  { label: "About", to: "about" },
+  { label: "Projects", to: "projects" }, // <-- Added Projects
+  { label: "Work", to: "work" },
+  { label: "Contact", to: "contact" },
+];
+
+const scrollToSection = (id) => {
+  const el = document.getElementById(id);
+  if (el) {
+    const yOffset = -20;
+    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({ top: y, behavior: "smooth" });
+  }
+};
+
 function Navigation() {
   return (
     <ul className="nav-ul">
-      <li className="nav-li">
-        <a className="nav-link" href="#home">
-          Home
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#about">
-          About
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#work">
-          Work
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#contact">
-          Contact
-        </a>
-      </li>
+      {NAV_LINKS.map((link) => (
+        <li key={link.to} className="nav-li">
+          <button
+            className="nav-link"
+            onClick={() => scrollToSection(link.to)}
+          >
+            {link.label}
+          </button>
+        </li>
+      ))}
     </ul>
   );
 }
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
